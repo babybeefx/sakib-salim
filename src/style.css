@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Inter', system-ui;
+  background: #000;
+  color: #fff;
+}
+
+/* nav fix */
+.nav-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 6px;
+}
+
+/* active indicator */
+.nav-active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 14px;
+  height: 2px;
+
+  background: #3b82f6;
+  border-radius: 999px;
+}
+
+/* active indicator */
+.nav-active::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+
+  width: 16px;
+  height: 3px;
+
+  background: #3b82f6;
+  border-radius: 999px;
+}
+
+/* pills */
+.nav-pill {
+  color: #9ca3af;
+}
+.nav-pill:hover {
+  color: white;
+}
+.active-pill {
+  background: rgba(59,130,246,0.2);
+  color: white;
+}
+
+/* brands */
+@keyframes brands-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.brands-track {
+  animation: brands-scroll 30s linear infinite;
+}
