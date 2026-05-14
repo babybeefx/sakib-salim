@@ -2,7 +2,7 @@ export default function video() {
   const longVideos = [
     "bTGq2Cyqj2I","n6A7Han77tA","15O71WFhkaU","tOMnGOtHpAw","yOGK7BWRlNw",
     "xOWMZ1lFOts","TSfiiBuBYbs","NC8llF9c9x8","Mivy-V-REaI","ozbBiuh5Nzk",
-    "EMYGkNmYhv8","eDFHErCYxto","8mEr92Flwm8","k52XCGJTNis","NneXhXgD40I"
+    "EMYGkNmYhv8","eDFHErCYxto","8mEr92Flwm8","k52XCGJTNis","UUJr-UIVeqA"
   ];
 
   const shortVideos = [
