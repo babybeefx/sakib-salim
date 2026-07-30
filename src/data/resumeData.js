@@ -7,9 +7,15 @@ export const resumeData = {
 
   experience: [
     {
+      company: "English Fantasy",
+      role: "Senior Video Editor",
+      duration: "Jul 2026 - Present",
+      logo: "/logos/ef.svg"
+    },
+    {
       company: "OnnoRokom EdTech Limited",
       role: "Video Editor",
-      duration: "Apr 2026 - Present",
+      duration: "Apr 2026 - May 2026",
       logo: "/logos/onnorokom.svg"
     },
     {
