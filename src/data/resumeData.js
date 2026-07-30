@@ -15,14 +15,8 @@ export const resumeData = {
     {
       company: "OnnoRokom EdTech Limited",
       role: "Video Editor",
-      duration: "Apr 2026 - May 2026",
+      duration: "Feb 2026 - May 2026",
       logo: "/logos/onnorokom.svg"
-    },
-    {
-      company: "Globanta360",
-      role: "Executive - Motion & Graphic",
-      duration: "Feb 2026 - Apr 2026",
-      logo: "/logos/globanta.svg"
     },
     {
       company: "Falaq Food",
